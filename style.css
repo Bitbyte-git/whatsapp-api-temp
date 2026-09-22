@@ -233,10 +233,11 @@ ul {
 /* Logo image (actual PNG) */
 .logo-img {
   display: block;
-  width: 48px;
-  height: 48px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
   object-position: center;
+  max-width: 120px;
 }
 
 .logo-img--footer {
@@ -258,10 +259,12 @@ ul {
 
 /* Nav Links */
 .navbar__nav {
-  flex: 1;                    /* takes all remaining space */
+  flex: 1;
+  /* takes all remaining space */
   display: flex;
   align-items: center;
-  justify-content: center;    /* centers nav links in that space */
+  justify-content: center;
+  /* centers nav links in that space */
   gap: 4px;
 }
 
@@ -371,7 +374,8 @@ ul {
   display: flex;
   align-items: center;
   gap: 12px;
-  flex-shrink: 0;             /* never shrinks, stays on right */
+  flex-shrink: 0;
+  /* never shrinks, stays on right */
 }
 
 /* Hamburger */
@@ -489,7 +493,8 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 50px; /* shift image view down by 50px */
+  object-position: center 50px;
+  /* shift image view down by 50px */
   display: block;
 }
 
@@ -783,10 +788,17 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0.55;
+  opacity: 0.6;
   transition: opacity var(--transition-smooth),
     transform var(--transition-smooth);
   flex-shrink: 0;
+  /* Allow SVG text to render fully without clipping */
+  overflow: visible;
+}
+
+.trust-logo svg {
+  overflow: visible;
+  display: block;
 }
 
 .trust-logo:hover {
@@ -827,8 +839,8 @@ ul {
 
 .footer__inner {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr 1.8fr;
-  gap: var(--sp-8);
+  grid-template-columns: 1.6fr 1fr 1fr 1fr 1.8fr;
+  gap: var(--sp-7);
   padding-top: var(--sp-10);
   padding-bottom: var(--sp-8);
   align-items: start;
