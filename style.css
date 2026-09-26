@@ -203,10 +203,6 @@ ul {
   transition: transform var(--transition-smooth);
 }
 
-.logo-mark--white {
-  /* variant already handled by inner SVG colors */
-}
-
 .navbar__logo:hover .logo-mark {
   transform: scale(1.05);
 }
@@ -545,6 +541,8 @@ ul {
   line-height: 1.0;
   margin-bottom: var(--sp-3);
 }
+
+
 
 .headline-dark {
   color: var(--color-text-main);

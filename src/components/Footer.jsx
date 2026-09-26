@@ -21,12 +21,12 @@ export default function Footer() {
       <div className="container footer__inner">
         {/* Brand Column */}
         <div className="footer__brand">
-          <a href="#" className="footer__logo" aria-label="Bit Byte Technologies Home">
+          <a href="#" className="footer__logo" aria-label="Infisq Innovations Home">
             <div className="footer__logo-mark" aria-hidden="true">
-              <img src="assets/Bb-Logo.png" alt="Bit Byte Technologies Logo" className="footer__logo-img" />
+              <img src="assets/BitByte-Logo.png" alt="Infisq Innovations Logo" className="footer__logo-img" />
             </div>
             <div className="footer__logo-text">
-              <span className="footer__logo-name">Bit Byte Technologies</span>
+              <span className="footer__logo-name">Infisq Innovations</span>
               <span className="footer__logo-tagline">COMMUNICATE • AUTOMATE • GROW</span>
             </div>
           </a>

@@ -27,12 +27,12 @@ export default function Navbar() {
     <header className={`navbar ${isScrolled ? 'scrolled' : ''}`} id="navbar" role="banner">
       <div className="container navbar__inner">
         {/* Logo */}
-        <a href="#" className="navbar__logo" aria-label="Bit Byte Technologies Home">
+        <a href="#" className="navbar__logo" aria-label="Infisq Innovations Home">
           <div className="logo-mark" aria-hidden="true">
-            <img src="assets/Bb-Logo.png" alt="Bit Byte Technologies Logo" className="logo-img" />
+            <img src="assets/BitByte-Logo.png" alt="Infisq Innovations Logo" className="logo-img" />
           </div>
           <div className="logo-text">
-            <span className="logo-name">Bit Byte Technologies</span>
+            <span className="logo-name">Infisq Innovations</span>
             <span className="logo-tagline">COMMUNICATE • AUTOMATE • GROW</span>
           </div>
         </a>

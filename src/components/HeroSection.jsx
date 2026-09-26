@@ -71,7 +71,9 @@ export default function HeroSection() {
           {/* Headline */}
           <h1 className="hero__headline">
             <span className="headline-part">The Next Chapter in</span>
-            <span className="headline-accent">WhatsApp Automation</span>
+            <span className="headline-accent">
+              <span className="headline-accent--green">WhatsApp</span> Automation
+            </span>
           </h1>
 
           {/* Subtitle */}

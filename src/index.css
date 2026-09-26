@@ -218,7 +218,7 @@ ul {
 }
 
 .logo-name {
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   font-weight: 800;
   color: var(--color-text-main);
   letter-spacing: -0.02em;
@@ -233,15 +233,15 @@ ul {
 /* Logo image (actual PNG) */
 .logo-img {
   display: block;
-  width: 130px;
-  height: 130px;
-
+  width: 62.4px;
+  height: 62.4px;
+  object-fit: contain;
   object-position: center;
 }
 
 
 .logo-tagline {
-  font-size: 0.55rem;
+  font-size: 0.60rem;
   font-weight: 600;
   letter-spacing: 0.12em;
   color: var(--color-text-secondary);
@@ -551,6 +551,14 @@ ul {
 }
 
 .headline-green {
+  color: var(--color-primary);
+}
+
+.headline-accent {
+  color: var(--color-text-main);
+}
+
+.headline-accent--green {
   color: var(--color-primary);
 }
 
